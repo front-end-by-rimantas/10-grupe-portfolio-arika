@@ -38,6 +38,39 @@
 
 
 /* START: first hero */
+.first-hero {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/home-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+}
+
+    .first-hero h1 {
+        display: inline-block;
+    }
+
+    .first-hero h4 {
+        display: inline-block;
+    }
+
+        .hero-animation {
+            display: inline-block;
+        }
+
+    .first-hero a {
+        display: inline-block;
+    }
+
+    .first-hero img {
+        display: inline-block;
+        float: right;
+        height: 600px;
+    }
+
+
 /* END: first hero */
 
 /* START: second hero */
