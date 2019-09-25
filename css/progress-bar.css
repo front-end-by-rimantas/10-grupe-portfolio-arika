@@ -1,0 +1,32 @@
+.bars {
+        
+}
+    .progress-bar {
+        color: black;
+    }
+
+    .bars>span {
+        color: gray;
+        position: absolute;
+        margin-bottom: -20px;
+    }
+
+    .bar {
+        background-color: #eee;
+        position: relative;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+
+        .bar-width {
+            position: relative;
+           background-color: var(--secondary-color);
+           height: 6px;
+        }
+
+        .progress-number {
+            position: absolute;
+            top: -30px;
+            color: gray;
+            right: 0;
+        }

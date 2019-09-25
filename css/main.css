@@ -73,3 +73,39 @@
 
 /* START: clients logo list */
 /* END: clients logo list */
+
+/* START: Professional skills. */
+.skill-box {
+    display: inline-block;
+    width: 50%;
+    padding-right: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    min-width: 450px;
+}
+
+    .skill-box > div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .skill-box  h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 44px;
+        line-height: 70px;
+    }
+
+    .skill-box  p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 19px;
+    }
+
+    .skill-box-img {
+        display: inline-block;
+        width: 48%;
+        min-width: 450px;
+    }
+/*END: Professional skills. */
