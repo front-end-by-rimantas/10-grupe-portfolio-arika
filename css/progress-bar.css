@@ -1,5 +1,6 @@
 .bars {
-        
+        display: inline-block;
+        width: 100%;
 }
     .progress-bar {
         color: black;
