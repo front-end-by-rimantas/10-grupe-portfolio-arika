@@ -1,8 +1,8 @@
 .button {
     display: inline-block;
     text-decoration: none;
-    background: #ef4364;
-    color:#fff;
+    background: var(--secondary-color);
+    color: var(--light-main-color);
     text-align: center;
     text-transform: uppercase;
     width: auto;

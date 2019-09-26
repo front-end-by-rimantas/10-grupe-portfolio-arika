@@ -46,10 +46,12 @@
     background-repeat: no-repeat;
     background-position: left;
     position: relative;
+    color: var(--light-main-color);
 }
 
     .first-hero h1 {
         display: inline-block;
+        font-size: 50px;
     }
 
     .first-hero h4 {
