@@ -9,13 +9,13 @@ function renderSkills (data) {
     data.forEach(skill => {
         if(!skill.title ||
         typeof(skill.title) !== 'string' ||
-        skill.title === 0 ||
-        skill.title > 50 ||
+        skill.title.length === 0 ||
+        skill.title.length > 20 ||
         !skill.value ||
         typeof(skill.value) !== 'number' ||
         skill.value > 100 ||
         skill.value < 0) {
-            return
+            return;
         }
         let value = skill.value;
         if ( value % 1 !== 0 ) {
@@ -24,12 +24,11 @@ function renderSkills (data) {
 
         HTML += `<div class="progress-bar">
                     <span>${skill.title}</span>
+                    <div class="progress-number">${value}%</div>
                     <div class="bar">
-                        <div class="bar-width" style="width: ${value}%">
-                            <div class="progress-number">${value}%</div>
-                        </div>    
+                        <div class="bar-width" style="width: ${value}%"></div>    
                     </div>
-                </div>`
+                </div>`;
     });
 
     return HTML;

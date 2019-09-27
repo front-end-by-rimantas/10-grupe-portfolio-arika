@@ -4,30 +4,32 @@
 }
     .progress-bar {
         color: black;
+        margin-bottom: 35px;
     }
 
-    .bars>span {
-        color: gray;
-        position: absolute;
-        margin-bottom: -20px;
+    .bars > .progress-bar > span {
+        display: inline-block;
+        line-height: 40px;
     }
 
     .bar {
         background-color: #eee;
-        position: relative;
-        margin-bottom: 30px;
-        margin-top: 20px;
     }
 
         .bar-width {
-            position: relative;
+           position: relative;
            background-color: var(--secondary-color);
            height: 6px;
+           animation: loading 3s 1;
+        }
+
+        @keyframes loading {
+            0% {width: 0;}
         }
 
         .progress-number {
-            position: absolute;
-            top: -30px;
+            display: inline-block;
             color: gray;
-            right: 0;
+            line-height: 40px;
+            float: right;
         }
