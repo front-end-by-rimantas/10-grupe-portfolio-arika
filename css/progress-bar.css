@@ -4,7 +4,7 @@
 }
     .progress-bar {
         color: black;
-        margin-bottom: 35px;
+        margin-bottom: 30px;
     }
 
     .bars > .progress-bar > span {
@@ -20,7 +20,11 @@
            position: relative;
            background-color: var(--secondary-color);
            height: 6px;
-           animation: loading 3s 1;
+           visibility: hidden;
+        }
+
+        .bar-animation {
+            animation: loading 3s 1;
         }
 
         @keyframes loading {

@@ -33,3 +33,22 @@ function renderSkills (data) {
 
     return HTML;
 }
+
+function isInView(el) {
+    let elBottom = el.getBoundingClientRect().bottom - window.innerHeight;
+    if(elBottom < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function barAnimation() {
+    let arr = document.getElementsByClassName('bar-width');
+    for(let i=0; i<arr.length; i++) {
+        if(isInView(arr[i])) {
+            arr[i].style.visibility = 'visible';
+            arr[i].classList.add('bar-animation');
+        }
+    }
+}
