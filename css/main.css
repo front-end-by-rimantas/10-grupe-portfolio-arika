@@ -49,13 +49,13 @@
     color: var(--light-main-color);
 }
 
-    .first-hero .row {
+    .first-hero .first-hero-left {
         display: inline-block;
         width: 40%;
         border-left: 4px solid var(--light-main-color);
+        margin-left: 50px;
         padding-left: 30px;
         text-align: left;
-        position: absolute;
         margin-top: 20%;
         margin-bottom: 30px;
     }
