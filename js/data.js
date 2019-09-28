@@ -8,32 +8,32 @@ const achievements = [
 
 const services = [
     { 
-        icon: 'snowflake-o',
+        icon: 'desktop',
         title: 'Search Optimization',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },
     { 
-        icon: 'snowflake-o',
+        icon: 'layers',
         title: 'Logo & Identify',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },
     { 
-        icon: 'snowflake-o',
+        icon: 'hotairballoon',
         title: 'Graphics Design',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },
     { 
-        icon: 'snowflake-o',
+        icon: 'mobile',
         title: 'Fully Responsive',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },
     { 
-        icon: 'snowflake-o',
+        icon: 'tools',
         title: 'Advanced Options',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },
     { 
-        icon: 'snowflake-o',
+        icon: 'scissors',
         title: 'Reasonable Pricing',
         p: 'The9 is a graphically polished, interactive, easily customizable, highly modern, fast loading.',
     },

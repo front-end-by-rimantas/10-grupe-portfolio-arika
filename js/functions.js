@@ -19,7 +19,7 @@ function renderServices(target, data) {
         }
         if (obj.p) {
             HTML += `<div class="block">
-                        <i class="fa fa-${obj.icon}"></i>
+                        <img src="./img/icons/${obj.icon}.png">
                         <h4>${obj.title}</h4>
                         <p>${obj.p}</p>
                     </div>`
