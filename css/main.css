@@ -49,6 +49,17 @@
     color: var(--light-main-color);
 }
 
+    .first-hero .row {
+        display: inline-block;
+        width: 40%;
+        border-left: 4px solid var(--light-main-color);
+        padding-left: 30px;
+        text-align: left;
+        position: absolute;
+        margin-top: 20%;
+        margin-bottom: 30px;
+    }
+
     .first-hero h1 {
         display: inline-block;
         font-size: 50px;
@@ -57,10 +68,6 @@
     .first-hero h4 {
         display: inline-block;
     }
-
-        .hero-animation {
-            display: inline-block;
-        }
 
     .first-hero a {
         display: inline-block;
@@ -74,7 +81,6 @@
         right: 100px;
         bottom: 0;
     }
-
 
 /* END: first hero */
 
