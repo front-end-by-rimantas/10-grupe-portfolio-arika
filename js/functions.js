@@ -2,6 +2,7 @@ function renderAchievements() {
     return;
 }
 
+
 function renderServices(target, data) {
     let HTML = '';
     let quantity = 0;
@@ -27,4 +28,10 @@ function renderServices(target, data) {
         }
     }
     return document.getElementById(target).innerHTML = HTML;
+
+//back to top
+let button = document.getElementById("btn");
+function toTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
 }
