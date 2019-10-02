@@ -142,6 +142,10 @@ p {
     border: 1px solid #DEE2E6;
     text-align: center;
     box-shadow: 0 20px 50px #0001;
+    background-image: url(../img/airplane2.png);
+    background-position: bottom right;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
 }
     .container > .row > .get-in-touch > h3 {
         width: 100%;
