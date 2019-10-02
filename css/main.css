@@ -69,10 +69,12 @@
             color: #868482;
             margin: 20px 0;
         }
+        
 /* END: second hero */
 
 /* START: clients logo list */
 /* END: clients logo list */
+
 
 /* START: Professional skills. */
 .skill-box {
@@ -109,3 +111,48 @@
         min-width: 450px;
     }
 /*END: Professional skills. */
+
+/* START: MY SERVICES */
+
+.pattern {
+    display: inline-block;
+    width: 100%;
+    margin: 70px 0;
+}
+    .pattern > .block {
+        display: inline-block;
+        width: calc((100% - 80px) / 3);
+        float: left;
+        padding: 55px 40px 45px;
+        margin-right: 40px;
+        margin-bottom: 40px;
+        text-align: center;
+        background-color: #fff;
+        box-shadow: 0 3px 12px #0001;
+        border: 6px solid transparent;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .pattern > .block:nth-child(3n) {
+        margin-right: 0;
+    }
+    .pattern > .block:hover {
+        border: 6px solid #ef4364;
+        transform: translateY(-15px);
+        transition-duration: 500ms;
+    }
+        .pattern > .block > i {
+            font-size: 40px;
+            color: #ef4364;
+            line-height: 50px;
+        }
+        .pattern > .block > h4 {
+            font-size: 25px;
+            line-height: 30px;
+        }
+        .pattern > .block > p {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+/* END: MY SERVICE */

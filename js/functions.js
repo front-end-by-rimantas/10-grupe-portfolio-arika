@@ -2,7 +2,14 @@ function renderAchievements() {
     return;
 }
 
+//back to top
+let button = document.getElementById("btn");
+function toTop() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
 
+//progress bar
 function renderSkills (data) {
     let HTML = '';
 
@@ -51,4 +58,30 @@ function barAnimation() {
             arr[i].classList.add('bar-animation');
         }
     }
+
+function renderServices(target, data) {
+    let HTML = '';
+    let quantity = 0;
+
+    for (i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if (!obj.icon ||
+            !obj.title ||
+            !obj.p) {
+                continue;
+            }
+        if (quantity === 6) {
+            break;
+        }
+        if (obj.p) {
+            HTML += `<div class="block">
+                        <img src="./img/icons/${obj.icon}.png">
+                        <h4>${obj.title}</h4>
+                        <p>${obj.p}</p>
+                    </div>`
+            quantity++;
+        }
+    }
+    return document.getElementById(target).innerHTML = HTML;
 }
