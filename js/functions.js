@@ -10,3 +10,12 @@ function headerScroll() {
         document.getElementsByTagName("header")[0].removeAttribute("id");
     }
 }
+
+function menuClick() {
+    var doc = document.getElementById('nav');
+    if(doc.classList[0] == 'nav-show'){        
+        doc.classList.replace('nav-show','nav'); 
+        return;   
+    }
+    doc.classList.replace('nav', 'nav-show');
+}

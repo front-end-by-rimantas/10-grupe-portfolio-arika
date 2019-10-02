@@ -9,11 +9,17 @@
         width: 1200px;
         margin: 0 calc(50% - 600px);
     }
+    .menu-min {
+        display: none;
+    }
 
 @media (max-width: 1200px) {
     .container > .row {
         width: 1000px;
         margin: 0 calc(50% - 500px);
+    }
+    .menu-min {
+        display: none;
     }
 }
 
@@ -22,6 +28,9 @@
         width: 800px;
         margin: 0 calc(50% - 400px);
     }
+    .menu-min {
+        display: none;
+    }
 }
 
 @media (max-width: 900px) {
@@ -29,11 +38,23 @@
         width: 500px;
         margin: 0 calc(50% - 250px);
     }
+    .nav {
+        display: none;
+    }
+    .menu-min {
+        display: inline-block;
+    }
 }
 
 @media (max-width: 600px) {
     .container > .row {
         width: calc(100% - 40px);
         margin: 0;
+    }
+    .nav {
+        display: none;
+    }
+    .menu-min {
+        display: inline-block;
     }
 }
