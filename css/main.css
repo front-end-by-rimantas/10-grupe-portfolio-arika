@@ -155,16 +155,14 @@ p {
         margin-top: 65px;
     }
     .container > .row > .get-in-touch > p {
-        /*width: 100%;*/
         float: left;
-        text-align: left;
         margin-left: 70px;
         margin-bottom: 30px;
     }
     form {
         display: inline-block;
-        width: 100%;
         float: left;
+        width: 100%;
         
     }
     form input {
