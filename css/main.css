@@ -125,7 +125,7 @@ header > .row {
     display: inline-block;
 }
 
-.pages-dropdown {
+.nav .pages-dropdown {
     visibility: hidden;
     position: absolute;
     background-color: white;
@@ -139,14 +139,14 @@ header > .row {
     transition: all 0.5s ease-in-out;
 }
 
-.dropdown:hover .pages-dropdown {
+.nav .dropdown:hover .pages-dropdown {
     display: block;
     visibility: visible;
     top: 70px;
     opacity: 1;
 }
 
-.pages-dropdown a {
+.nav .pages-dropdown a {
     color: black;
     padding: 8px 15px;
     display: block;
@@ -155,12 +155,49 @@ header > .row {
     line-height: 25px;
 }
 
-.pages-dropdown a:hover {
+.nav .pages-dropdown a:hover {
     color: var(--secondary-color);
 }
 
-.m-dropdown {
+.nav > ul > li > .pages-m-dropdown {
     display: none;
+}
+
+.nav-show > ul > li > .pages-m-dropdown {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-left: 1px solid #e6e6e6;
+    color: #111111;
+}
+
+.nav-show .pages-dropdown {
+    display: none;
+}
+
+.nav-show .p-m-dropdown {
+    display: block;
+    background: #f5f5f5;
+    border-top: 1px solid #e6e6e6;
+    list-style: none;
+}
+
+.nav-show .p-m-dropdown a {
+    display: block;
+    padding: 0 15px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #111111;
+}
+
+.nav-show .p-m-dropdown a:hover {
+    color: var(--secondary-color)
 }
 
 /*.social-links {

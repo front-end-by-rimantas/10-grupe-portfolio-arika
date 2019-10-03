@@ -19,3 +19,12 @@ function menuClick() {
     }
     doc.classList.replace('nav', 'nav-show');
 }
+
+function pagesClick() {
+    var doc = document.getElementById('pages-dropdown');
+    if(doc.classList[0] == 'p-m-dropdown'){
+        doc.classList.replace('p-m-dropdown', 'pages-dropdown');
+        return;
+    }
+    doc.classList.replace('pages-dropdown', 'p-m-dropdown');
+}
