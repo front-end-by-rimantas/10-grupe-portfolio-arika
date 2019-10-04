@@ -10,6 +10,9 @@
 .underline-color-bg {
     background-color: var(--underline-color);
 }
+.border-color-bd {
+    border-color: var(--border-color);
+}
 
 .section-title {
     display: inline-block;
@@ -18,7 +21,7 @@
     line-height: 70px;
     text-align: center;
     position: relative;
-    padding: 40px;
+    padding: 20px 40px;
     margin-top: 40px;
 }
  mark {
@@ -28,6 +31,10 @@
     background-repeat: no-repeat;
     background-position: bottom;
     color: currentColor;
+}
+
+p {
+    text-align: center;
 }
     
     
@@ -68,6 +75,7 @@
             font-size: 22px;
             color: #868482;
             margin: 20px 0;
+            
         }
         
 /* END: second hero */
@@ -81,6 +89,7 @@
     display: inline-block;
     width: 100%;
     margin: 70px 0;
+    text-align: center;
 }
     .pattern > .block {
         display: inline-block;
@@ -119,6 +128,98 @@
         }
 
 /* END: MY SERVICE */
+
+
+/* START: LATEST WORKS */
+/* END: LATEST WORKS */
+
+/* START: PROFESSIONAL SKILLS */
+/* END: PROFESSIONAL SKILLS */
+
+/* START: LATEST BLOGS */
+/* END: LATEST BLOGS */
+
+/* START: GET IN TOUCH */
+.container > .row > .get-in-touch {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid #DEE2E6;
+    text-align: center;
+    box-shadow: 0 20px 50px #0001;
+    background-image: url(../img/airplane2.png);
+    background-position: bottom right;
+    /*background-size: cover;*/
+    background-repeat: no-repeat;
+}
+    .container > .row > .get-in-touch > h3 {
+        width: 100%;
+        float: left;
+        text-align: left;
+        margin-left: 70px;
+        margin-top: 65px;
+    }
+    .container > .row > .get-in-touch > p {
+        float: left;
+        margin-left: 70px;
+        margin-bottom: 30px;
+    }
+    form {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        
+    }
+    form input {
+        float: left;
+        width: calc(50% - 90px);
+        margin-bottom: 30px;
+        font-size: 20px;
+        line-height: 20px;
+        padding: 10px;
+        border: 1px solid;
+        border-color: var(--border-color);
+        
+        }
+    form input:first-child {
+        margin-left: 70px;
+        margin-right: 40px;
+        }
+    form > textarea {
+        width: calc(100% - 140px);
+        /*text-align: center;*/
+        padding: 10px;
+        resize: vertical;
+        min-height: 100px;
+        max-height: 200px;
+        font-size: 20px;
+        line-height: 40px;
+        border: 1px solid;
+        border-color: var(--border-color);
+    }
+.container > .row > .get-in-touch > span {
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+    color: #868482;
+    font-size: 15px;
+}
+.container > .row > .get-in-touch > .button {
+    float: right;
+    margin-top: 15px;
+    margin-right: 70px;
+    margin-bottom: 70px;
+    font-size: 15px;
+}
+
+
+
+/* END: GET IN TOUCH */
+
+/* START: CONTACT PART */
+/* END: CONTACT PART */
+
+/* START: FOOTER */
+/* END: FOOTER */
 
 /* START: TESTIMONIALS */
 .testimonials-block {
@@ -173,3 +274,4 @@
             }
 
 /* END: TESTIMONIALS */
+
