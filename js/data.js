@@ -43,21 +43,25 @@ const services = [
 //testimonials
 const testimonials = [
     {
+        img: 'team-1',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         author: 'Nancy Bayers',
         position: 'Co-founder'
     },
     {
+        img: 'team-2',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         author: 'Nancy Bayers',
         position: 'Co-founder'
     },
     {
+        img: 'team-3',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         author: 'Nancy Bayers',
         position: 'Co-founder'
     },
     {
+        img: 'team-4',
         text: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
         author: 'Nancy Bayers',
         position: 'Co-founder'
