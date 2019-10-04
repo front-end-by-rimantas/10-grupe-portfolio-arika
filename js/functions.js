@@ -59,6 +59,8 @@ function barAnimation() {
         }
     }
 
+
+//My Services
 function renderServices(target, data) {
     let HTML = '';
     let quantity = 0;
@@ -83,5 +85,36 @@ function renderServices(target, data) {
             quantity++;
         }
     }
+    return document.getElementById(target).innerHTML = HTML;
+}
+
+//Testimonials
+function renderTestimonials( target, data ) {
+    let HTML = '';
+    let slides = 0;
+
+    for ( i=0; i<data.length; i++ ) {
+        const obj = data[i];
+
+        if ( !obj.img ||
+            !obj.text ||
+            !obj.author ||
+            !obj.position ) {
+                continue;
+            }
+        if ( slides === 4 ) {
+            break;
+        }
+        if ( obj.position ) {
+        HTML += `<div class="testimonial-slide">
+                    <img src="./img/team/${obj.img}.jpg">
+                    <p>${obj.text}</p>
+                    <h5>${obj.author}</h5>
+                    <p>${obj.position}</p>
+                </div>`
+        slides++;
+        }
+    }
+
     return document.getElementById(target).innerHTML = HTML;
 }

@@ -29,6 +29,12 @@
         width: 800px;
         margin: 0 calc(50% - 400px);
     }
+    .container > .row > .get-in-touch > span {
+        margin-right: 70px;
+    }
+    .container > .row > .get-in-touch > p {
+        margin-right: 70px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -41,6 +47,11 @@
         margin: 70px;
         justify-content: center;
     }
+    .container > .row > .section-title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+     
 }
 
 @media (max-width: 600px) {
