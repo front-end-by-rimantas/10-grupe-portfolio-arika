@@ -10,6 +10,9 @@
 .underline-color-bg {
     background-color: var(--underline-color);
 }
+.border-color-bd {
+    border-color: var(--border-color);
+}
 
 .section-title {
     display: inline-block;
@@ -172,7 +175,8 @@ p {
         font-size: 20px;
         line-height: 20px;
         padding: 10px;
-        border: 1px solid #DEE2E6;
+        border: 1px solid;
+        border-color: var(--border-color);
         
         }
     form input:first-child {
@@ -188,7 +192,8 @@ p {
         max-height: 200px;
         font-size: 20px;
         line-height: 40px;
-        border: 1px solid #DEE2E6;
+        border: 1px solid;
+        border-color: var(--border-color);
     }
 .container > .row > .get-in-touch > span {
     float: left;
