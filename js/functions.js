@@ -87,12 +87,14 @@ function renderBlogs(target, data) {
         }
         else {
             HTML += `<div class="container">
-                        <img src="./img/blog/${obj.pic}.jpg">
+                        <div class="img">
+                            <img src="./img/blog/${obj.pic}.jpg">
+                        </div>
                         <span>${obj.date}</span>
                         <span>${obj.section}</span>
-                        <a href="#">${obj.title}</a>
+                        <a href="#" class="section">${obj.title}</a>
                         <p>${obj.p}</p>
-                        <a href="#">${obj.h4}</a>
+                        <a href="#" class="read">${obj.read}</a>
                     </div>`
             
         }

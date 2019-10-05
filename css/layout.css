@@ -22,6 +22,24 @@
     .container > .row > .pattern > .block:nth-child(2n) {
         margin-right: 0;
     }
+    .container > .row > .blogs > .container:nth-child(1n) {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        margin: 40px 0 40px 0;
+    }
+    .container > .row > .blogs > .container:first-child {
+        margin-top: 60px;
+    }
+    .container > .row > .blogs > .container:last-child {
+        margin-bottom: 120px;
+    }
+
+    .container > .row > .blogs > .container > img {
+        width: 1220px;
+        height: 870px;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1100px) {

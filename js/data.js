@@ -78,7 +78,7 @@ const blogs = [
     section: 'Design',
     title: 'Make your Marketing website',
     p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    h4: 'read more',
+    read: 'read more',
 },
 {
     pic: 'blog-2',
@@ -86,7 +86,7 @@ const blogs = [
     section: 'Design',
     title: 'Make your Marketing website',
     p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    h4: 'read more',
+    read: 'read more',
 },
 {
     pic: 'blog-3',
@@ -94,7 +94,7 @@ const blogs = [
     section: 'Design',
     title: 'Make your Marketing website',
     p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
-    h4: 'read more',
+    read: 'read more',
 },
 
 ]
