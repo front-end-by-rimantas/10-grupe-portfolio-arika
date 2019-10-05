@@ -68,3 +68,35 @@ const testimonials = [
     },
 ];
 //testimonials end
+
+//latest blogs//
+
+const blogs = [
+{
+    pic: 'blog-1',
+    date: '02 Mar 2019',
+    section: 'Design',
+    title: 'Make your Marketing website',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    h4: 'read more',
+},
+{
+    pic: 'blog-2',
+    date: '02 Mar 2019',
+    section: 'Design',
+    title: 'Make your Marketing website',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    h4: 'read more',
+},
+{
+    pic: 'blog-3',
+    date: '02 Mar 2019',
+    section: 'Design',
+    title: 'Make your Marketing website',
+    p: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit.',
+    h4: 'read more',
+},
+
+]
+
+//latest blogs//

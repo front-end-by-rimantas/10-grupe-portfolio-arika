@@ -222,7 +222,7 @@ p {
 /* END: FOOTER */
 
 /* START: TESTIMONIALS */
-.testimonials-block {
+    .testimonials-block {
     display: inline-block;
     float: left;
     width: 100%;
