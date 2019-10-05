@@ -58,6 +58,7 @@ function barAnimation() {
             arr[i].classList.add('bar-animation');
         }
     }
+}
 
 
 //My Services
