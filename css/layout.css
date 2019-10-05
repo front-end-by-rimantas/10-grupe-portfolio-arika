@@ -6,14 +6,21 @@
 
     .container > .row {
         display: inline-block;
-        width: 1200px;
-        margin: 0 calc(50% - 600px);
+        width: 1300px;
+        margin: 0 calc(50% - 650px);
     }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     .container > .row {
         width: 1000px;
         margin: 0 calc(50% - 500px);
+    }
+    .container > .row > .pattern > .block {
+        width: calc((100% - 40px) / 2);
+        margin-right: 40px;
+    }
+    .container > .row > .pattern > .block:nth-child(2n) {
+        margin-right: 0;
     }
 }
 
@@ -22,6 +29,12 @@
         width: 800px;
         margin: 0 calc(50% - 400px);
     }
+    .container > .row > .get-in-touch > span {
+        margin-right: 70px;
+    }
+    .container > .row > .get-in-touch > p {
+        margin-right: 70px;
+    }
 }
 
 @media (max-width: 900px) {
@@ -29,11 +42,29 @@
         width: 500px;
         margin: 0 calc(50% - 250px);
     }
+    .container > .row > .pattern > .block {
+        width: 100%;
+        margin: 70px;
+        justify-content: center;
+    }
+    .container > .row > .section-title {
+        font-size: 40px;
+        line-height: 40px;
+    }
+     
 }
 
 @media (max-width: 600px) {
     .container > .row {
         width: calc(100% - 40px);
         margin: 0;
+    }
+    .container > .row > .pattern > .block {
+        width: 100%;
+        margin: 40px;
+    }
+    .container > .row > .section-title {
+        font-size: 40px;
+        line-height: 40px;
     }
 }
