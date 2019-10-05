@@ -6,6 +6,7 @@ const achievements = [
 ];
 
 
+
 const skills = [
     {
         title: 'HTML5',
@@ -86,4 +87,3 @@ const testimonials = [
     },
 ];
 //testimonials end
-
