@@ -86,7 +86,7 @@ function renderBlogs(target, data) {
                 continue;
         }
         else {
-            HTML += `<div class="container">
+            HTML += `<div class="block">
                         <div class="img">
                             <img src="./img/blog/${obj.pic}.jpg">
                         </div>
