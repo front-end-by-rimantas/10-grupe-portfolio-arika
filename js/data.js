@@ -99,3 +99,30 @@ const blogs = [
 ]
 
 //latest blogs//
+
+//contact part//
+
+const contacts = [
+    {
+        icon: 'address',
+        title: 'Address',
+        contact: '123 6th St. Melbourne, FL 32904, USA',
+    },
+    {
+        icon: 'Email',
+        title: 'Email',
+        contact: 'info@yourdomain.com sale@yourdomain.com',
+    },
+    {
+        icon: 'Phone',
+        title: 'Phone',
+        contact: 'Mob: +01 000 000 000 Fax: +01 000 000 000',
+    },
+    {
+        icon: 'working-hr',
+        title: 'Working Hr',
+        contact: 'Monday to Friday (9:00 to 18:00)',
+    }
+]
+
+//contact part//
