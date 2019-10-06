@@ -69,10 +69,12 @@ p {
     .first-hero h1 {
         display: inline-block;
         font-size: 50px;
+        width: 100%;
     }
 
     .first-hero h4 {
         display: inline-block;
+        width: 100%;
     }
 
     .first-hero a {
@@ -86,6 +88,26 @@ p {
         position: absolute;
         right: 100px;
         bottom: 0;
+    }
+
+    .hero-animation {
+        position: relative;
+    }
+
+    .hero-animation::after {
+        content: "";
+        position: absolute;
+        border-right: 2px solid;
+        animation: blink .5s infinite ease;
+    }
+
+    @keyframes blink {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1%;
+        }
     }
 
 /* END: first hero */

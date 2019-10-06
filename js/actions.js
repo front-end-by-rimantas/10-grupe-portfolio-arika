@@ -22,3 +22,4 @@ renderContacts ('contacts', contacts);
 
 renderWorks ('works', works);
 
+renderTypewriting ( 'typing', typing );

@@ -179,3 +179,5 @@ const works = [
 
 // works end
 
+//hero animation
+const typing = [ 'Designer', 'Developer' ];
