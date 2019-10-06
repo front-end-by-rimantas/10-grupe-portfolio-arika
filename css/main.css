@@ -407,18 +407,16 @@ p {
     .gallery > .unit {
         width: calc(100% / 3);
         float: left;
+
+        position: relative;
     } 
     .gallery > .unit > .photo {
         width: 100%;
-
-        position: relative;
+        height: 370px;
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
     }
-        .gallery > .unit > .photo > img {
-            width: 100%; 
-            height: auto;
-            vertical-align: top;
-        }
-
         .gallery > .unit > .photo::after {
             content: ' ';
             width:100%; height:100%;
@@ -432,12 +430,27 @@ p {
         .gallery > .unit > .photo:hover::after {
             opacity:1;
         }
+        .gallery > .unit > .photo > h5 {
+            opacity: 0;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--secondary-color);
+            transition: .5s ease;
+            z-index: 1;
+        }
+        .gallery > .unit > .photo:hover h5 {
+            opacity: 1;
+            cursor: pointer;
+        }
 
         
-    
-    
-    
-
-
+        
+     
 
 /* END: LATEST WORKS */

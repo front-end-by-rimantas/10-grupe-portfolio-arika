@@ -142,13 +142,8 @@ function renderWorks(target, data) {
         }
         if(obj.image) {
             HTML+= `<div class="unit">
-                        <div class="photo">
-                            <img src="./img/portfolio/${obj.image}.jpg">
-                        </div>
-                        <div class="link">
-                            <div class="background">
-                            </div>
-                            <h3></h3>
+                        <div class="photo" style="background-image: url(./img/portfolio/${obj.image}.jpg)">
+                            <h5>Our Photography</h5> 
                         </div>
                     </div>`
         }
