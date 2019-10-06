@@ -8,3 +8,5 @@ renderBlogs ('blogs', blogs);
 
 renderContacts ('contacts', contacts);
 
+
+

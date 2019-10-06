@@ -114,7 +114,7 @@ function renderContacts(target, data) {
             !obj.contact){
               continue;  
         }
-        else {
+        if(obj.contact) {
             HTML += `<div class="info">
                         <div class="img">
                             <img src="./img/icons/${obj.icon}.png">
@@ -129,4 +129,3 @@ function renderContacts(target, data) {
     return document.getElementById(target).innerHTML = HTML;
 }
 
-//Contact part//
