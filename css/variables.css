@@ -1,8 +1,11 @@
 :root {
     --main-color: #F5F8FD;
     --secondary-color: #ef4364;
-    --light-main-color: #FEFEFE;
+    --light-main-color: #FFF;
     --underline-color: #80F3E7; 
     --footer-background: #212529;
     --footer-text-color: #999;
+    --border-color: #DEE2E6;
+    --testimonials-background-color: #FFF;
+    --border-color: #DDD;
 }
