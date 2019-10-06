@@ -1,5 +1,9 @@
 renderAchievements( achievements );
 
+renderServices( 'services', services );
+
+renderWorks( 'insta-icons', works );
+
 //progress bar
 document.querySelector('.bars').innerHTML = renderSkills( skills );
 
