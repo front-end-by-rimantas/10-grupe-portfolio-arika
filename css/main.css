@@ -114,7 +114,7 @@ p {
             font-size: 27px;
             margin: 20px 0;
         }
-        p {
+        .second-hero > .about p {
             font-size: 22px;
             color: #868482;
             margin: 20px 0;
@@ -125,6 +125,43 @@ p {
 
 /* START: clients logo list */
 /* END: clients logo list */
+
+
+/* START: Professional skills. */
+.skill-box {
+    display: inline-block;
+    width: 50%;
+    padding-right: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    min-width: 450px;
+}
+
+    .skill-box > div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .skill-box  h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 44px;
+        line-height: 70px;
+    }
+
+    .skill-box  p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 19px;
+    }
+
+    .skill-box-img {
+        display: inline-block;
+        width: 48%;
+        min-width: 450px;
+    }
+/*END: Professional skills. */
 
 /* START: MY SERVICES */
 
@@ -171,6 +208,113 @@ p {
 
 /* END: MY SERVICE */
 
+/* START: FOOTER */
+.footer {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+    margin: 0;
+    padding: 0;
+}  
+    .footer-top {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding-top: 80px;
+        line-height: 20px;
+    }
+        .footer .contact-list {
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+            }   
+            .footer .contact-list > h3 {
+                font-size: 50px;
+                color: #fff;
+                margin-bottom: 50px;
+            }
+            .footer .contact-list .fa {
+                float: left;
+                color: var(--footer-text-color);
+                font-size: 16px;
+                padding-right: 100px;
+                line-height: 25px;
+            }
+            .footer a {
+                color: var(--footer-text-color);
+                text-decoration: none;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        .footer .about-us {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+            .footer h5 {
+                color: #fff;
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+           .footer ul {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 30px;
+                list-style-type: none; 
+           }
+        .footer .other-links {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+        .footer .instagram-feed {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+
+            .footer .instagram-feed img {
+                display: inline-block;
+                float: left;
+                width: 90px;
+                padding: 0 10px 10px 0;
+            }
+    .footer-bottom {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.07); 
+        padding: 20px 60px 20px 0;
+    }
+        .footer-bottom .copyright {
+            display: inline-block;
+            float: left;
+        }
+
+        .footer-bottom .soc-icons {
+            display: inline-block;
+            float: right;
+        }
+
+        .footer-bottom a {
+            display: inline-block;
+            margin: 0;
+        }
+        .footer-bottom a:hover {
+            display: inline-block;
+            color: #fff;
+        }
+/* END: FOOTER */
 
 /* START: LATEST WORKS */
 /* END: LATEST WORKS */
@@ -496,3 +640,5 @@ p {
    
 
 /* : LATEST WORKS */
+/* END: LATEST WORKS */
+
