@@ -67,3 +67,37 @@ function renderTestimonials( target, data ) {
 
     return document.getElementById(target).innerHTML = HTML;
 }
+
+
+//Latest blogs//
+
+function renderBlogs(target, data) {
+    let HTML = '';
+
+    for (i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if (!obj.pic ||
+            !obj.date ||
+            !obj.section) {
+                continue;
+        }
+        else {
+            HTML += `<div class="block">
+                        <div class="img">
+                            <img src="./img/blog/${obj.pic}.jpg">
+                        </div>
+                        <span>${obj.date}</span>
+                        <span>${obj.section}</span>
+                        <a href="#" class="section">${obj.title}</a>
+                        <p>${obj.p}</p>
+                        <a href="#" class="read">${obj.read}</a>
+                    </div>`
+            
+        }
+    }
+    return document.getElementById(target).innerHTML = HTML;
+}
+
+//Latest blogs//
+
