@@ -95,6 +95,8 @@
         width: calc(100% - 40px);
         margin: 0;
     }
+}
+
     .container > .row > .pattern > .block {
         width: 100%;
         margin: 40px;
@@ -103,6 +105,7 @@
         font-size: 40px;
         line-height: 40px;
     }
+//* latest blog *//
     .container > .row > .blogs > .block {
         padding: 0 20px;
     }
@@ -115,3 +118,4 @@
         width: 100%;
     }
 }
+//* latest blog *//

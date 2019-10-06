@@ -69,9 +69,6 @@ function renderTestimonials( target, data ) {
 }
 
 
-
-
-
 //Latest blogs//
 
 function renderBlogs(target, data) {
@@ -103,3 +100,4 @@ function renderBlogs(target, data) {
 }
 
 //Latest blogs//
+
