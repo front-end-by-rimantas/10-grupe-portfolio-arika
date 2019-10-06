@@ -195,7 +195,7 @@
             height: 300px;
         }
 
-            .footer .instagram-feed > img {
+            .footer .instagram-feed img {
                 display: inline-block;
                 float: left;
                 width: 90px;
@@ -204,23 +204,26 @@
     .footer-bottom {
         display: inline-block;
         float: left;
-        width: 100%;  
+        width: 100%;
         border-top: 1px solid rgba(255, 255, 255, 0.07); 
+        padding: 20px 60px 20px 0;
     }
-        .footer-bottom p {
-            display: inline-block;
-            width: 50%;
-        }
-
-        .social-icons {
+        .footer-bottom .copyright {
             display: inline-block;
             float: left;
         }
 
-        .social-icons > a {
-            text-align: center;
+        .footer-bottom .soc-icons {
+            display: inline-block;
+            float: right;
         }
-        .social-icons a:hover {
+
+        .footer-bottom a {
+            display: inline-block;
+            margin: 0;
+        }
+        .footer-bottom a:hover {
+            display: inline-block;
             color: #fff;
         }
 /* END: FOOTER */
