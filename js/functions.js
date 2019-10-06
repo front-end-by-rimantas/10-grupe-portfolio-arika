@@ -129,3 +129,30 @@ function renderContacts(target, data) {
     return document.getElementById(target).innerHTML = HTML;
 }
 
+//Latest Works//
+
+function renderWorks(target, data) {
+    let HTML = '';
+
+    for(i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if(!obj.image) {
+            continue;
+        }
+        if(obj.image) {
+            HTML+= `<div class="unit">
+                        <div class="photo">
+                            <img src="./img/portfolio/${obj.image}.jpg">
+                        </div>
+                        <div class="link">
+                            <div class="background">
+                            </div>
+                            <h3></h3>
+                        </div>
+                    </div>`
+        }
+    }
+    return document.getElementById(target).innerHTML = HTML;
+}
+

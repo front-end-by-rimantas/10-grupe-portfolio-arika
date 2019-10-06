@@ -126,3 +126,35 @@ const contacts = [
 ]
 
 //contact part//
+//works
+const works = [
+    {
+        image: 'portfolio-1',
+    },
+    {
+        image: 'portfolio-2',
+    },
+    {
+        image: 'portfolio-3',
+    },
+    {
+        image: 'portfolio-4',
+    },
+    {
+        image: 'portfolio-5',
+    },
+    {
+        image: 'portfolio-6',
+    },
+    {
+        image: 'portfolio-7',
+    },
+    {
+        image: 'portfolio-8',
+    },
+    {
+        image: 'portfolio-1',
+    }
+]
+
+// works end
