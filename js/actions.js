@@ -6,3 +6,5 @@ renderTestimonials ( 'testimonials', testimonials );
 
 renderBlogs ('blogs', blogs);
 
+renderContacts ('contacts', contacts);
+

@@ -26,7 +26,7 @@ function renderServices(target, data) {
             break;
         }
         if (obj.p) {
-            HTML += `<div class="block">
+            HTML += `<div class="service">
                         <img src="./img/icons/${obj.icon}.png">
                         <h4>${obj.title}</h4>
                         <p>${obj.p}</p>
@@ -101,3 +101,32 @@ function renderBlogs(target, data) {
 
 //Latest blogs//
 
+//Contact part//
+
+function renderContacts(target, data) {
+    let HTML = '';
+
+    for(i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if(!obj.icon ||
+            !obj.title ||
+            !obj.contact){
+              continue;  
+        }
+        else {
+            HTML += `<div class="info">
+                        <div class="img">
+                            <img src="./img/icons/${obj.icon}.png">
+                        </div>    
+                        <div class="details">
+                            <h4>${obj.title}</h4>
+                            <p>${obj.contact}</p>
+                        </div>
+                    </div>`
+        }
+    } 
+    return document.getElementById(target).innerHTML = HTML;
+}
+
+//Contact part//
