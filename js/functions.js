@@ -208,7 +208,7 @@ function renderWorks(target, data) {
 }
 
 // instagram icons
-function renderWorks( target, data ) {
+function renderFooter( target, data ) {
     let HTML = '';
     let amount = 0;
 
