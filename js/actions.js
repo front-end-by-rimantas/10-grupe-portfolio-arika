@@ -12,3 +12,9 @@ renderServices( 'services', services );
 //testimonials
 renderTestimonials ( 'testimonials', testimonials );
 
+renderBlogs ('blogs', blogs);
+
+renderContacts ('contacts', contacts);
+
+renderWorks ('works', works);
+

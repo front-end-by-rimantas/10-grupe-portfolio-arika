@@ -78,7 +78,7 @@ function renderServices(target, data) {
             break;
         }
         if (obj.p) {
-            HTML += `<div class="block">
+            HTML += `<div class="service">
                         <img src="./img/icons/${obj.icon}.png">
                         <h4>${obj.title}</h4>
                         <p>${obj.p}</p>
@@ -119,3 +119,92 @@ function renderTestimonials( target, data ) {
 
     return document.getElementById(target).innerHTML = HTML;
 }
+
+
+//Latest blogs//
+
+function renderBlogs(target, data) {
+    let HTML = '';
+
+    for (i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if (!obj.pic ||
+            !obj.date ||
+            !obj.section) {
+                continue;
+        }
+        else {
+            HTML += `<div class="block">
+                        <div class="img">
+                            <img src="./img/blog/${obj.pic}.jpg">
+                        </div>
+                        <span>${obj.date}</span>
+                        <span>${obj.section}</span>
+                        <a href="#" class="section">${obj.title}</a>
+                        <p>${obj.p}</p>
+                        <a href="#" class="read">${obj.read}</a>
+                    </div>`
+            
+        }
+    }
+    return document.getElementById(target).innerHTML = HTML;
+}
+
+//Latest blogs//
+
+//Contact part//
+
+function renderContacts(target, data) {
+    let HTML = '';
+
+    for(i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if(!obj.icon ||
+            !obj.title ||
+            !obj.contact){
+              continue;  
+        }
+        if(obj.contact) {
+            HTML += `<div class="info">
+                        <div class="img">
+                            <img src="./img/icons/${obj.icon}.png">
+                        </div>    
+                        <div class="details">
+                            <h4>${obj.title}</h4>
+                            <p>${obj.contact}</p>
+                        </div>
+                    </div>`
+        }
+    } 
+    return document.getElementById(target).innerHTML = HTML;
+}
+
+//Latest Works//
+
+function renderWorks(target, data) {
+    let HTML = '';
+
+    for(i=0; i<data.length; i++) {
+        const obj = data[i];
+
+        if(!obj.image) {
+            continue;
+        }
+        if(obj.image) {
+            HTML+= `<div class="unit">
+                        <div class="photo">
+                            <img src="./img/portfolio/${obj.image}.jpg">
+                        </div>
+                        <div class="link">
+                            <div class="background">
+                            </div>
+                            <h3></h3>
+                        </div>
+                    </div>`
+        }
+    }
+    return document.getElementById(target).innerHTML = HTML;
+}
+
