@@ -448,8 +448,52 @@ p {
             opacity: 1;
             cursor: pointer;
         }
+        .gallery > .unit > .photo:hover .link {
+            opacity: 1;
+            cursor: pointer;
+        }
+        .gallery > .unit > .photo > .link {
+            opacity: 0;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 0;
+            z-index: 1;
 
-        
+            position: absolute;
+            left: calc((100% - 80px) / 2);
+            top: calc((100% - 80px) / 2);
+        }
+
+            .gallery > .unit > .photo > .link::before {
+                display: inline-block;
+                content: '';
+                width: 80px;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                top: 40px;
+                background-color: #fff;
+
+                animation-name: horizontal;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+            }
+            .gallery > .unit > .photo > .link::after {
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 80px;
+                position: absolute;
+                top: 0;
+                left: 40px;
+                background-color: #fff;
+
+                animation-name: vertical;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+            }
+ 
         
      
 
