@@ -21,6 +21,7 @@
 
     .menu-min {
         display: none;
+    }
 
     .container > .row > .pattern > .service {
         width: calc((100% - 40px) / 2);
