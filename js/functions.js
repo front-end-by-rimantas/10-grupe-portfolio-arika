@@ -60,7 +60,6 @@ function barAnimation() {
     }
 }
 
-
 //My Services
 function renderServices(target, data) {
     let HTML = '';
