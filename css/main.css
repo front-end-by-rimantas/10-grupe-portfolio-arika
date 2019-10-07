@@ -41,7 +41,7 @@ p {
 /* START: header */
 header {
     background-color: transparent;
-    position: sticky;
+    position: fixed;
     top: 0;
     height: 70px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.16);
