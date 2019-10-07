@@ -45,6 +45,49 @@ p {
 
 
 /* START: first hero */
+.container .first-hero {
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/home-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    position: relative;
+    color: var(--light-main-color);
+    margin: 0;
+}
+
+    .first-hero .first-hero-left {
+        display: inline-block;
+        width: 40%;
+        border-left: 4px solid var(--light-main-color);
+        margin: 20% 0 30px 150px;
+        padding-left: 30px;
+        text-align: left;
+    }
+
+    .first-hero h1 {
+        display: inline-block;
+        font-size: 50px;
+    }
+
+    .first-hero h4 {
+        display: inline-block;
+    }
+
+    .first-hero a {
+        display: inline-block;
+    }
+
+    .first-hero-right > img {
+        display: inline-block;
+        float: right;
+        height: 100%;
+        position: absolute;
+        right: 100px;
+        bottom: 0;
+    }
+
 /* END: first hero */
 
 /* START: second hero */
@@ -71,7 +114,7 @@ p {
             font-size: 27px;
             margin: 20px 0;
         }
-        p {
+        .second-hero > .about p {
             font-size: 22px;
             color: #868482;
             margin: 20px 0;
@@ -83,15 +126,51 @@ p {
 /* START: clients logo list */
 /* END: clients logo list */
 
+
+/* START: Professional skills. */
+.skill-box {
+    display: inline-block;
+    width: 50%;
+    padding-right: 50px;
+    margin-top: 30px;
+    padding-left: 20px;
+    min-width: 450px;
+}
+
+    .skill-box > div {
+        display: inline-block;
+        width: 100%;
+    }
+
+    .skill-box  h2 {
+        display: inline-block;
+        width: 100%;
+        font-size: 44px;
+        line-height: 70px;
+    }
+
+    .skill-box  p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 50px;
+        font-size: 19px;
+    }
+
+    .skill-box-img {
+        display: inline-block;
+        width: 48%;
+        min-width: 450px;
+    }
+/*END: Professional skills. */
+
 /* START: MY SERVICES */
 
 .pattern {
     display: inline-block;
     width: 100%;
     margin: 70px 0;
-    text-align: center;
 }
-    .pattern > .block {
+    .pattern > .service {
         display: inline-block;
         width: calc((100% - 80px) / 3);
         float: left;
@@ -105,30 +184,137 @@ p {
         border-radius: 5px;
         cursor: pointer;
     }
-    .pattern > .block:nth-child(3n) {
+    .pattern > .service:nth-child(3n) {
         margin-right: 0;
     }
-    .pattern > .block:hover {
+    .pattern > .service:hover {
         border: 6px solid #ef4364;
         transform: translateY(-15px);
         transition-duration: 500ms;
     }
-        .pattern > .block > i {
+        .pattern > .service > i {
             font-size: 40px;
             color: #ef4364;
             line-height: 50px;
         }
-        .pattern > .block > h4 {
+        .pattern > .service > h4 {
             font-size: 25px;
             line-height: 30px;
         }
-        .pattern > .block > p {
+        .pattern > .service > p {
             font-size: 20px;
             line-height: 20px;
         }
 
 /* END: MY SERVICE */
 
+/* START: FOOTER */
+.footer {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: var(--footer-background);
+    color: var(--footer-text-color);
+    margin: 0;
+    padding: 0;
+}  
+    .footer-top {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        padding-top: 80px;
+        line-height: 20px;
+    }
+        .footer .contact-list {
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+            }   
+            .footer .contact-list > h3 {
+                font-size: 50px;
+                color: #fff;
+                margin-bottom: 50px;
+            }
+            .footer .contact-list .fa {
+                float: left;
+                color: var(--footer-text-color);
+                font-size: 16px;
+                padding-right: 100px;
+                line-height: 25px;
+            }
+            .footer a {
+                color: var(--footer-text-color);
+                text-decoration: none;
+                font-size: 16px;
+                margin-top: 20px;
+            }
+        .footer .about-us {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+            .footer h5 {
+                color: #fff;
+                font-size: 20px;
+                margin-bottom: 40px;
+            }
+           .footer ul {
+                margin-top: 20px;
+                font-size: 16px;
+                line-height: 30px;
+                list-style-type: none; 
+           }
+        .footer .other-links {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+        .footer .instagram-feed {
+            display: inline-block;
+            float: left;
+            width: 25%;
+            width: 25%;
+            border: 1px solid transparent;
+            height: 300px;
+        }
+
+            .footer .instagram-feed img {
+                display: inline-block;
+                float: left;
+                width: 90px;
+                padding: 0 10px 10px 0;
+            }
+    .footer-bottom {
+        display: inline-block;
+        float: left;
+        width: 100%;
+        border-top: 1px solid rgba(255, 255, 255, 0.07); 
+        padding: 20px 60px 20px 0;
+    }
+        .footer-bottom .copyright {
+            display: inline-block;
+            float: left;
+        }
+
+        .footer-bottom .soc-icons {
+            display: inline-block;
+            float: right;
+        }
+
+        .footer-bottom a {
+            display: inline-block;
+            margin: 0;
+        }
+        .footer-bottom a:hover {
+            display: inline-block;
+            color: #fff;
+        }
+/* END: FOOTER */
 
 /* START: LATEST WORKS */
 /* END: LATEST WORKS */
@@ -137,6 +323,63 @@ p {
 /* END: PROFESSIONAL SKILLS */
 
 /* START: LATEST BLOGS */
+
+.blogs {
+    display: inline-block;
+    width: 100%;
+}
+    .blogs > .block {
+        float: left;
+        width: calc((100% - 80px) / 3);
+        text-align: left;
+        margin-top: 60px;
+        margin-bottom: 120px;
+    }
+    .blogs > .block:nth-child(2) {
+        margin: 60px 40px 120px 40px;
+    }
+   .blogs > .block > .img {
+        width: calc((1300px - 80px) / 3);
+        height: 290px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+        .blogs > .block > .img > img {
+            height: 290px;
+        }
+        .blogs > .block > .img > img:hover {
+            transform: scale(1.2);
+            transition-duration: 700ms;
+        }
+    .blogs > .block > span {
+        color: #868482;
+    }
+        .blogs > .block > span:nth-child(2) {
+            border-right: 1px solid var(--border-color);
+            padding: 7px;
+        }
+    .blogs > .block > p {
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .blogs > .block > a {
+        display: inline-block;
+        width: 100%;
+        margin: 25px 0 0;
+    }
+        .blogs > .block > a.section {
+            font-size: 25px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+        }
+        .blogs > .block > a.read {
+            font-size: 20px;
+            text-transform: uppercase;
+            color: var(--secondary-color);
+            font-weight: bold;
+        }
+ 
 /* END: LATEST BLOGS */
 
 /* START: GET IN TOUCH */
@@ -167,7 +410,6 @@ p {
         display: inline-block;
         float: left;
         width: 100%;
-        
     }
     form input {
         float: left;
@@ -178,8 +420,7 @@ p {
         padding: 10px;
         border: 1px solid;
         border-color: var(--border-color);
-        
-        }
+    }
     form input:first-child {
         margin-left: 70px;
         margin-right: 40px;
@@ -216,17 +457,43 @@ p {
 /* END: GET IN TOUCH */
 
 /* START: CONTACT PART */
+.contact {
+    display: inline-block;
+    width: 100%;
+    margin: 60px 0 120px 0;
+}
+    .contact > .info {
+        width: calc((100% - 30px) / 4);
+        float: left;
+    }
+        .contact > .info > .img {
+            width: 20%;
+            float: left;
+        }
+            .contact > .info > .img > img {
+                padding-top: 30px;
+            }
+        .contact > .info > .details {
+            width: 75%;
+            float: left;
+            padding-left: 30px;
+        }
+            .contact > .info > .details > p {
+                font-size: 20px;
+                text-align-last: left;
+            }    
+
+
 /* END: CONTACT PART */
 
 /* START: FOOTER */
 /* END: FOOTER */
 
 /* START: TESTIMONIALS */
-.testimonials-block {
+    .testimonials-block {
     display: inline-block;
     float: left;
     width: 100%;
-    height: 100vh;
     padding: 0 40px 40px;
     margin: 0 40px 40px;
     background-image: url(../img/testimonial-bg.png);
@@ -248,7 +515,7 @@ p {
         .testimonials-list > .testimonial-slide {
             display: inline-block;
             border: 1px solid var(--border-color);
-            width: calc( (100% - 140px) / 3 );
+            width: calc( (100% - 140px) / 4 );
             background-color: var(--testimonials-background-color);
             border-radius: 7px;
             padding: 50px 15px 0;
@@ -273,4 +540,104 @@ p {
             }
 
 /* END: TESTIMONIALS */
+
+/* START: LATEST WORKS */
+.gallery {
+    display: inline-block;
+    width: 100%;
+    margin: 60px 0 120px 0;
+}
+    .gallery > .unit {
+        width: calc(100% / 3);
+        float: left;
+
+        position: relative;
+    } 
+    .gallery > .unit > .photo {
+        width: 100%;
+        height: 370px;
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+        .gallery > .unit > .photo::after {
+            content: ' ';
+            width:100%; height:100%;
+            position: absolute;
+            top:0; 
+            left:0;
+            background:rgba(0,0,0,0.3);
+            opacity:0;
+            transition: all 0.5s;
+        }
+        .gallery > .unit > .photo:hover::after {
+            opacity:1;
+        }
+        .gallery > .unit > .photo > h5 {
+            opacity: 0;
+            font-size: 20px;
+            text-align: center;
+            color: #fff;
+            padding: 20px 0;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: var(--secondary-color);
+            transition: .5s ease;
+            z-index: 1;
+        }
+        .gallery > .unit > .photo:hover h5 {
+            opacity: 1;
+            cursor: pointer;
+        }
+        .gallery > .unit > .photo:hover .link {
+            opacity: 1;
+            cursor: pointer;
+        }
+        .gallery > .unit > .photo > .link {
+            opacity: 0;
+            display: inline-block;
+            width: 80px;
+            height: 80px;
+            margin: 0;
+            z-index: 1;
+
+            position: absolute;
+            left: calc((100% - 80px) / 2);
+            top: calc((100% - 80px) / 2);
+        }
+
+            .gallery > .unit > .photo > .link::before {
+                display: inline-block;
+                content: '';
+                width: 80px;
+                height: 1px;
+                position: absolute;
+                left: 0;
+                top: 40px;
+                background-color: #fff;
+
+                animation-name: horizontal;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+            }
+            .gallery > .unit > .photo > .link::after {
+                display: inline-block;
+                content: '';
+                width: 1px;
+                height: 80px;
+                position: absolute;
+                top: 0;
+                left: 40px;
+                background-color: #fff;
+
+                animation-name: vertical;
+                animation-iteration-count: infinite;
+                animation-duration: 2s;
+            }
+   
+
+/* : LATEST WORKS */
+/* END: LATEST WORKS */
 
