@@ -18,6 +18,13 @@ function menuClick() {
         return;   
     }
     doc.classList.replace('nav', 'nav-show');
+    document.querySelectorAll('.nav-show > ul > .nav-item > a').forEach(x=>x.onclick = menuClick);
+}
+
+var changeWidth = function() {
+    if(window.innerWidth >= 900) {
+        document.getElementById('nav').classList.replace('nav-show','nav');
+    }
 }
 
 function pagesClick() {

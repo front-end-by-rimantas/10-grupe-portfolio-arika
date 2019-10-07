@@ -67,12 +67,11 @@ header > .row {
     bottom: -2px;
     left: 0;
     right: 100%;
-    /*transition: right 0.5s ease-in-out;*/
+    transition: right 0.5s ease-in-out;
 }
 
 .nav .nav-item:hover::after {
     right: 0;
-    transition: right 0.5s ease-in-out;
 }
 
 .nav .nav-item:last-child {
@@ -88,15 +87,14 @@ header > .row {
     background-color: white;
     max-height: 80vh;
     overflow: auto;
-    /*animation: nav-click 0.3s;
-    animation-timing-function: ease-in-out;*/
+    animation: nav-click 0.5s;
+    animation-timing-function: ease-in-out;
 }
 
-    /*@keyframes nav-click {
+    @keyframes nav-click {
         0% {height: 0;}
-        50% {height: 50%;}
-        100% {height: 100%;}
-    }*/
+        100% {height: 287px;}
+    }
 
     .nav-show > ul > li {
         z-index: 1000;
@@ -174,6 +172,10 @@ header > .row {
     text-align: center;
     border-left: 1px solid #e6e6e6;
     color: #111111;
+}
+
+.nav-show .nav-item >  a:hover {
+    color: var(--secondary-color);
 }
 
 .nav-show .pages-dropdown {
