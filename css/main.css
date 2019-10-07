@@ -494,7 +494,6 @@ p {
     display: inline-block;
     float: left;
     width: 100%;
-    height: 100vh;
     padding: 0 40px 40px;
     margin: 0 40px 40px;
     background-image: url(../img/testimonial-bg.png);
@@ -516,7 +515,7 @@ p {
         .testimonials-list > .testimonial-slide {
             display: inline-block;
             border: 1px solid var(--border-color);
-            width: calc( (100% - 140px) / 3 );
+            width: calc( (100% - 140px) / 4 );
             background-color: var(--testimonials-background-color);
             border-radius: 7px;
             padding: 50px 15px 0;
