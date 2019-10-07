@@ -1,15 +1,15 @@
 .button {
     display: inline-block;
     text-decoration: none;
-    background: #ef4364;
-    color:#fff;
+    background: var(--secondary-color);
+    color: var(--light-main-color);
     text-align: center;
     text-transform: uppercase;
     width: auto;
-    font-size: 15px;
-    line-height: 15px;
-    padding: 13px;
-    margin: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 15px 35px;
+    margin-right: 10px;
     border-radius: 3px; 
 }
 
